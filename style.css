@@ -769,7 +769,7 @@ body {
 
     .hero-content {
         max-width: 100%;
-        margin-top: 40px;
+        padding: 50px 1rem;
     }
 
     .hero-content h1 {
@@ -809,4 +809,5 @@ body {
         height: 50px;
     }
 }
+
 
