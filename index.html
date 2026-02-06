@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome Portfolio</title>
+    <title>Shakhawat Shovo's </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#home" class="logo">Portfolio</a>
+            <a href="#home" class="logo"><img src="logo.jpg" alt="SHOVO"></a>
             <ul class="nav-menu">
                 <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -38,22 +38,159 @@
 
     <!-- About Section -->
     <section id="about" class="about">
-        <h2>About Me</h2>
-        <div class="about-grid">
-            <div class="about-card">
+        <div class="about-container">
+            <h2>About Me</h2>
+            
+            <div class="about-intro">
+                <p>I'm a passionate <strong>Full-Stack Developer</strong> and <strong>Competitive Programmer</strong> dedicated to building scalable web solutions and solving complex algorithmic challenges. With a strong foundation in both development and problem-solving, I bring a unique perspective to every project.My competitive programming background has sharpened my problem-solving skills, allowing me to write optimized and clean code. I believe in continuous learning and staying updated with the latest technologies.Whether it's building a complete web application from scratch or optimizing existing systems for better performance, I approach every project with precision, creativity, and a commitment to excellence.</p>
+            </div>
+
+            <!-- Highlights Grid -->
+            <div class="about-highlights">
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h4>Currently Studying</h4>
+                    <p>CSE at Comilla University</p>
+                    <span class="highlight-badge">Graduating in 6 months</span>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h4>1000+</h4>
+                    <p>Programming Problems Solved</p>
+                    <span class="highlight-badge">Multiple Platforms</span>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Competitive Programmer</h4>
+                    <p>Codeforces Pupil & CodeChef 3★</p>
+                    <span class="highlight-badge">Active Coder</span>
+                </div>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="about-main">
+                <!-- Education Card -->
+                <div class="about-card">
+                    <div class="card-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Education</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <div class="education-info">
+                                <h4>SSC</h4>
+                                <p>Nalbohor High School</p>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <div class="education-info">
+                                <h4>HSC</h4>
+                                <p>Mossharraf Hossain Khan University College</p>
+                            </div>
+                        </div>
+                        <div class="education-item active">
+                            <div class="education-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="education-info">
+                                <h4>BSc in Engineering</h4>
+                                <p>Department of Computer Science and Engineering, Comilla University</p>
+                                <span class="status-badge">Currently Pursuing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievements Card -->
+                <div class="about-card">
+                    <div class="card-header">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Achievements</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="achievement-item">
+                            <span class="achievement-badge">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <div class="achievement-info">
+                                <h4>Codeforces Pupil</h4>
+                                <p>Actively solving challenging algorithmic problems</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="achievement-badge badge-3star">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <div class="achievement-info">
+                                <h4>CodeChef 3-Star Coder</h4>
+                                <p>Demonstrated strong problem-solving expertise</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="achievement-badge badge-1000">
+                                <i class="fas fa-code"></i>
+                            </span>
+                            <div class="achievement-info">
+                                <h4>1000+ Problems Solved</h4>
+                                <p>Consistent practice across multiple platforms</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Services I Offer</h2>
+        <div class="services-grid">
+            <div class="service-card">
                 <i class="fas fa-code"></i>
                 <h3>Web Development</h3>
-                <p>Creating stunning, responsive websites with modern technologies.</p>
+                <p>Building robust, scalable web applications with modern technologies. From frontend interfaces to backend APIs, I create complete solutions tailored to your needs.</p>
+                <ul class="service-features">
+                    <li>Full-Stack Development</li>
+                    <li>RESTful APIs</li>
+                    <li>Database Design</li>
+                    <li>Performance Optimization</li>
+                </ul>
             </div>
-            <div class="about-card">
+            <div class="service-card">
                 <i class="fas fa-palette"></i>
                 <h3>UI/UX Design</h3>
-                <p>Designing beautiful and intuitive user experiences.</p>
+                <p>Designing beautiful, intuitive user experiences that engage users and drive conversions. I focus on clean, modern design principles.</p>
+                <ul class="service-features">
+                    <li>Responsive Design</li>
+                    <li>User Interface Design</li>
+                    <li>User Experience Strategy</li>
+                    <li>Prototype Development</li>
+                </ul>
             </div>
-            <div class="about-card">
+            <div class="service-card">
                 <i class="fas fa-rocket"></i>
-                <h3>Performance</h3>
-                <p>Optimizing applications for speed and efficiency.</p>
+                <h3>Performance Optimization</h3>
+                <p>Optimizing applications for speed and efficiency. I ensure your web applications run smoothly with minimal load times.</p>
+                <ul class="service-features">
+                    <li>Code Optimization</li>
+                    <li>Database Optimization</li>
+                    <li>Caching Strategies</li>
+                    <li>Load Testing</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -151,15 +288,15 @@
                 <div class="project-image" style="background: url(journeyx.png) no-repeat center center; background-size: cover;"></div>
                 <div class="project-info">
                     <h3>JourneyX</h3>
-                    <p>JourneyX is a bus ticket booking web application that simplifies travel booking and management. The system lets users search for available bus routes, choose seats, book tickets, and make payments online. It manages routes, schedules, bus details, bookings, and user profiles using a dedicated database. JourneyX streamlines the booking process for passengers and provides administrative tools to handle bus operations efficiently.</p>
+                    <p>JourneyX is a full-stack web-based bus ticket booking system developed using HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB. It allows users to search bus routes, view schedules, select seats, and book tickets through a secure login system. The platform also includes an admin panel to manage buses, routes, schedules, and bookings. JourneyX demonstrates efficient data handling, real-time seat management, and practical implementation of modern web development technologies.</p>
                     <a href="#" class="project-link">View More →</a>
                 </div>
             </div>
             <div class="project-card">
-                <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                <div class="project-image" style="background: url(school.png) no-repeat center center; background-size: cover;"></div>
                 <div class="project-info">
-                    <h3>Project Three</h3>
-                    <p>A mobile app for productivity and task management</p>
+                    <h3>Nalbohor High School</h3>
+                    <p>This project is a dynamic school website developed using HTML5, CSS3, Node.js, Express.js, and MySQL to provide an organized and user-friendly online presence for a school. The website includes essential sections such as Home, About Us, Academics, Faculty, Admissions, News & Events, Gallery, and Contact Us. It allows administrators to manage content efficiently, while students and parents can access academic information, announcements, and study resources easily. This project demonstrates practical full-stack web development and real-world educational website design.</p>
                     <a href="#" class="project-link">View More →</a>
                 </div>
             </div>
@@ -191,6 +328,9 @@
         <p>&copy; 2026 My Portfolio. All rights reserved.</p>
     </footer>
 
+    <!-- EmailJS Library -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
+    <!-- Main JS -->
     <script src="main.js"></script>
 </body>
 </html>
